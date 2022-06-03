@@ -10,6 +10,15 @@
 * Task ....
 ~~
 
+### Getting Started windows
+
+```dart
+open terminal 
+clone this
+flutter pub get
+flutter run 
+--choose platforms you having--
+```
 ### Getting Started
 
 ```dart
