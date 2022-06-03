@@ -2,7 +2,9 @@
 
 ~~
 ## 26/5/2022
-* Task 1: Home Screen Woking in Flow 🚀(Dome Screen).
+* Task 1: Home Screen Woking in Flow 🚀(Dome Screen).'
+* Task 2: DashBoard Finding a job in industry
+## 1/6/2022
 * Task 2: Login With Security GG Account of student of university\\
 * Task 3: On-the-job training
 * Task ....
@@ -18,5 +20,5 @@ flutter run
 
 ### Looks 👀
 
-Demo ís Comming
+Demo is ready icoming
 
