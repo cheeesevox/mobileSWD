@@ -92,7 +92,7 @@ class AdVertPlacement extends StatelessWidget {
               style: TextStyle(color: Colors.red, fontSize: 35),
             ),
             Text('Here', style: TextStyle(color: Colors.black, fontSize: 30)),
-            Text('+840988889999',
+            Text('+84988889999',
                 style: TextStyle(color: Colors.indigo[900], fontSize: 20))
           ],
         ),
