@@ -63,7 +63,7 @@ class PageViewCard extends StatelessWidget {
               padding: EdgeInsets.symmetric(
                   horizontal: getProportionateScreenWidth(20)),
               child: Text(
-                'Search for jobs that match your abilities, while improving many aspects of your technology. Come to us',
+                'Search the Feature job for you',
                 textAlign: TextAlign.center,
                 maxLines: 3,
                 style: TextStyle(

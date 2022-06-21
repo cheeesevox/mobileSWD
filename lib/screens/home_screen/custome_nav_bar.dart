@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:job_app/konstants.dart';
+import 'package:job_app/screens/login_screen.dart';
 
 enum MenuState { home, favorite, message, profile }
 
@@ -33,9 +34,18 @@ class CustomBottomNavBar extends StatelessWidget {
               icon: Icon(Icons.home, color: kPrimaryColor),
             ),
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return LoginScreen();
+                    },
+                  ),
+                );
+              },
               icon: Icon(
-                Icons.favorite,
+                Icons.account_box_rounded,
                 color: inActiveIconColor,
               ),
             ),
