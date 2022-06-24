@@ -50,16 +50,34 @@ class CustomBottomNavBar extends StatelessWidget {
               ),
             ),
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return LoginScreen();
+                    },
+                  ),
+                );
+              },
               icon: Icon(
-                Icons.chat_bubble,
+                Icons.account_box_rounded,
                 color: inActiveIconColor,
               ),
             ),
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return LoginScreen();
+                    },
+                  ),
+                );
+              },
               icon: Icon(
-                Icons.settings,
+                Icons.account_box_rounded,
                 color: inActiveIconColor,
               ),
             ),
